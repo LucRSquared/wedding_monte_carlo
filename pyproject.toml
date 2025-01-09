@@ -1,0 +1,15 @@
+[project]
+name = "wedding_monte_carlo"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Luc Rébillout", email = "rebillout.luc@gmail.com"},
+]
+dependencies = ["pandas>=2.2.3", "ipykernel>=6.29.5", "numpy>=2.2.1", "matplotlib>=3.10.0", "seaborn>=0.13.2", "tqdm>=4.67.1", "ipympl>=0.9.6"]
+requires-python = "==3.11.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
